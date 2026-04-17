@@ -21,8 +21,13 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
+
 PRODUCT_PACKAGES += \
     otapreopt_script \
     update_engine \
     update_engine_sideload \
     update_verifier \
+
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
